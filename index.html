@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Profile Directory</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 1000px;
+            width: 100%;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+        }
+        /* The Responsive Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 25px;
+            padding: 0;
+            list-style: none;
+        }
+        /* Individual Student Card */
+        .student-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .student-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        .student-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #3498db;
+            background-color: #ecf0f1;
+        }
+        .student-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+        }
+        .view-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        .view-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎓 Class Profile Directory</h1>
+        <p class="subtitle">Click on any classmate to view their full profile</p>
+        
+        <ul class="grid">
+            
+            <li class="student-card">
+                <img src="person.png" alt="Mark Clifford" class="student-img">
+                <h3 class="student-name">ALANO, MARK CLIFFORD C.</h3>
+                <a href="alano-mark.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Ralp Aeron" class="student-img">
+                <h3 class="student-name">ALIPIO, RALP AERON O.</h3>
+                <a href="alipio-ralp.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="John Reignel" class="student-img">
+                <h3 class="student-name">APOLISTA, JOHN REIGNEL M.</h3>
+                <a href="apolista-john.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="John Mark Noel" class="student-img">
+                <h3 class="student-name">AUSTRIA, JOHN MARK NOEL G.</h3>
+                <a href="austria-john.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Xyzine" class="student-img">
+                <h3 class="student-name">AUSTRIA, XYZINE G.</h3>
+                <a href="austria-xyzine.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Dwight Kirby" class="student-img">
+                <h3 class="student-name">BRIONES, DWIGHT KIRBY T.</h3>
+                <a href="briones-dwight.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Juan Miguel" class="student-img">
+                <h3 class="student-name">BUENDIA, JUAN MIGUEL F.</h3>
+                <a href="buendia-juan.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Jayson" class="student-img">
+                <h3 class="student-name">BULUGAGAO, JAYSON A.</h3>
+                <a href="bulugagao-jayson.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Jane Ashley" class="student-img">
+                <h3 class="student-name">CANDELARIA, JANE ASHLEY R.</h3>
+                <a href="candelaria-jane.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Gian Russel" class="student-img">
+                <h3 class="student-name">CATALAN, GIAN RUSSEL R.</h3>
+                <a href="catalan-gian.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Mark Loren" class="student-img">
+                <h3 class="student-name">CONCON, MARK LOREN R.</h3>
+                <a href="concon-mark.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Doniel Angelo" class="student-img">
+                <h3 class="student-name">CRUZ, DONIEL ANGELO Y.</h3>
+                <a href="cruz-doniel.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="John Andrei" class="student-img">
+                <h3 class="student-name">DIMAUNAHAN, JOHN ANDREI M.</h3>
+                <a href="dimaunahan-john.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="John Carlo" class="student-img">
+                <h3 class="student-name">GARCIA, JOHN CARLO B.</h3>
+                <a href="garcia-john.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Neil Gabriel" class="student-img">
+                <h3 class="student-name">LANTING, NEIL GABRIEL C.</h3>
+                <a href="lanting-neil.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Paul Aljon" class="student-img">
+                <h3 class="student-name">LOCSIN, PAUL ALJON B.</h3>
+                <a href="locsin-paul.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Sandy" class="student-img">
+                <h3 class="student-name">MACUSI, SANDY</h3>
+                <a href="macusi-sandy.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Jan Mykel" class="student-img">
+                <h3 class="student-name">MANGUBAT, JAN MYKEL C.</h3>
+                <a href="mangubat-jan.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Mark Kevin" class="student-img">
+                <h3 class="student-name">MEDINA, MARK KEVIN S.</h3>
+                <a href="medina-mark.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Keith Raven" class="student-img">
+                <h3 class="student-name">MONTENEGRO, KEITH RAVEN C.</h3>
+                <a href="montenegro-keith.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Karen Joyce" class="student-img">
+                <h3 class="student-name">NOVICIO, KAREN JOYCE D.</h3>
+                <a href="novicio-karen.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Lee Johnrich" class="student-img">
+                <h3 class="student-name">RAMIREZ, LEE JOHNRICH H.</h3>
+                <a href="ramirez-lee.html" class="view-btn">View Profile</a>
+            </li>
+
+            <li class="student-card">
+                <img src="person.png" alt="Jake" class="student-img">
+                <h3 class="student-name">REYES, JAKE C.</h3>
+                <a href="reyes-jake.html" class="view-btn">View Profile</a>
+            </li>
+            
+            <li class="student-card">
+                <img src="person.png" alt="Jan Dave" class="student-img">
+                <h3 class="student-name">SALAMAT, JAN DAVE F.</h3>
+                <a href="salamat-jan.html" class="view-btn">View Profile</a>
+            </li>
+            
+            <li class="student-card">
+                <img src="person.png" alt="Ernest Jules" class="student-img">
+                <h3 class="student-name">SANTIAGO, ERNEST JULES S.</h3>
+                <a href="santiago-ernest.html" class="view-btn">View Profile</a>
+            </li>
+            
+            <li class="student-card">
+                <img src="person.png" alt="John Rheal" class="student-img">
+                <h3 class="student-name">SERDON, JOHN RHEAL P.</h3>
+                <a href="serdon-john.html" class="view-btn">View Profile</a>
+            </li>
+            
+            <li class="student-card">
+                <img src="person.png" alt="Mhargerie" class="student-img">
+                <h3 class="student-name">TOTING, MHARGERIE S.</h3>
+                <a href="toting-mhargerie.html" class="view-btn">View Profile</a>
+            </li>
+            
+            <li class="student-card">
+                <img src="person.png" alt="Allein Dion" class="student-img">
+                <h3 class="student-name">VALLEJOS, ALLEIN DION A.</h3>
+                <a href="vallejos-allein.html" class="view-btn">View Profile</a>
+            </li>
+            
+            <li class="student-card">
+                <img src="person.png" alt="Cris Albert" class="student-img">
+                <h3 class="student-name">VERDADERO, CRIS ALBERT R.</h3>
+                <a href="verdadero-cris.html" class="view-btn">View Profile</a>
+            </li>
+            
+            <li class="student-card">
+                <img src="person.png" alt="Zeill Andrew" class="student-img">
+                <h3 class="student-name">VISTA, ZEILL ANDREW C.</h3>
+                <a href="vista-zeill.html" class="view-btn">View Profile</a>
+            </li>
+            
+        </ul>
+    </div>
+    </body>
+</html>
